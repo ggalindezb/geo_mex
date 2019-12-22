@@ -1,7 +1,10 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-# Specify your gem's dependencies in geo_mex.gemspec
+source 'https://rubygems.org'
 gemspec
 
-gem "rake", "~> 12.0"
-gem "rspec", "~> 3.0"
+group :development do
+  gem 'pry', '~> 0.12.2'
+  gem 'rake', '~> 12.0'
+  gem 'rspec', '~> 3.0'
+end
