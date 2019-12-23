@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'rubygems'
+require 'bundler'
+# require 'geo_mex'
+
+Bundler.require(:development)
+$debug = true
+
+File.open('data/cdmx.csv') do |file|
+  FastCSV.raw_parse(file, col_sep: '|') do |row|
+    zip_code = row[0]
+    neighbourhood = row[1]
+    neighbourhood_type = row[2]
+    municipality = row[3]
+    state = row[4]
+    city = row[5]
+  end
+end
