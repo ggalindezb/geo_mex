@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 group :development do
+  gem 'fastcsv', '~> 0.0.6'
   gem 'pry', '~> 0.12.2'
   gem 'rake', '~> 12.0'
   gem 'rspec', '~> 3.0'

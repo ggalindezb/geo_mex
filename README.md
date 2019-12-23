@@ -34,6 +34,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/geo_mex. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/geo_mex/blob/master/CODE_OF_CONDUCT.md).
 
+## Links
+
+- Descarga de Codigos Postales. [Link](https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx)
+- Shapefiles, nacional. [Link](https://datos.gob.mx/busca/dataset/codigos-postales-coordenadas-y-colonias)
+- Catalogo nacional de codigos postales. [Link](https://datos.gob.mx/busca/dataset/catalogo-nacional-de-codigos-postales)
 
 ## License
 
